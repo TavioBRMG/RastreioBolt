@@ -1,0 +1,80 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #D8E0E5;
+}
+
+.searchb {
+  border: none;
+  transition: all 0.5s;
+} 
+
+.searchb:focus {
+  outline: none;
+}
+
+.searchb:hover {
+  cursor: pointer;
+}
+
+table>tbody>tr>td {
+    vertical-align: middle !important;
+}
+
+/*para alinear los botones y cuadro de busqueda*/
+.btn-group, .btn-group-vertical {
+    position: absolute !important;
+}
+
+.dataTables_filter {
+    margin:20px;
+}
+
+.outlinen:focus{
+  box-shadow: none !important;
+}
+
+.form-control[type=search]{
+	border-radius: 0;
+	box-shadow: none !important;
+	border-radius: 0px 5px 5px 0px;
+}
+
+.baixo {
+  margin-top: 202px;
+        width: 100%;
+}
+
+@-webkit-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+0% { opacity: 0;}
+100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+@keyframes fadeIn {
+0% { opacity: 0; }
+100% { opacity: 1; }
+}
+
+.fadeIn {
+-webkit-animation: fadeIn 1s ease-in-out;
+-moz-animation: fadeIn 1s ease-in-out;
+-o-animation: fadeIn 1s ease-in-out;
+animation: fadeIn 1s ease-in-out;
+}
+
+.btn-successs {
+  color: #fff;
+  background-color: #4ADA54;
+  border-color: #4ADA54;
+}
+.btn-successs:hover {
+  color: #fff;
+  background-color: #33B93C;
+  border-color: #33B93C;
+}
